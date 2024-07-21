@@ -1,0 +1,58 @@
+/*.black{
+    background-color: black;
+    display: inline-block;
+    border: solid 2px orange;
+    height: 250px;
+    width: 250px;
+}
+.red{
+    background-color: red;
+    display: inline-block;
+    border: solid 2px orange;
+    height: 250px;
+    width: 250px;
+}
+.hi{
+    background-color: yellow;
+    display: inline-block;
+}
+.bye{
+    background-color: red;
+    display: inline;
+}*/
+
+.static{
+    background-color: aqua;
+    border: dotted 5px yellow;
+    display: inline-block;
+    height: 10vh;
+    width: 70%;
+    position: relative;
+    top: 90vh;
+    right: -50%;
+}
+ul li{
+    background-color: wheat;
+    display: inline;
+    border: solid 2px wheat;
+    padding: 10px;
+    margin-right: 40px;
+}
+/*.black{
+    background-color: white;
+    border: dashed 2px black;
+    display: inline;
+
+}
+.red{
+    
+    background-color: white;
+    border: dashed 2px black;
+    display: inline;
+}
+.hi{
+    
+    background-color: white;
+    border: dashed 2px black;
+    display: inline;
+}*/

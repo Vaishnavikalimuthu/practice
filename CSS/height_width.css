@@ -1,0 +1,17 @@
+body{
+    font-size: 2em;
+}
+/*p{
+    background-color: powderblue;
+    border:solid 2px;
+    padding: 50px;
+    margin: 60px;
+    min-height:200px;
+    min-width:500px;
+    
+    
+    box-shadow: 0px 0px 20px 30px rgb(49, 105, 112);
+}*/
+body h1{
+    font-size: 1rem;
+}

@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>UpperLower</title>
+</head>
+<body>
+    <script>
+
+//Upperlower      
+        var input=prompt()
+        var str=""
+        
+        // if(typeof input !== String ){
+        //     alert("enter the String")
+        // }
+
+
+        for(var i=0; i<input.length; i++){
+            //console.log((input[i] == input[i].toLowerCase()))
+        
+            if(input[i] == input[i].toLowerCase()){
+                str += input[i].toUpperCase()
+                //str = input[i].toUpperCase()
+            }
+            else if(input[i] == input[i].toUpperCase()){
+                str += input[i].toLowerCase()
+                //str = input[i].toLowerCase()
+            }
+            
+            //console.log(str)
+           
+        }
+        console.log(str)
+
+
+
+    </script>
+</body>
+</html>

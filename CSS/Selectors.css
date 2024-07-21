@@ -1,0 +1,73 @@
+/* universal */
+*{
+    color: rgb(128, 15, 15);
+}
+
+/* element */
+body{
+    color:black ;
+}
+
+
+/* id */
+#name{
+    color:blueviolet;
+}
+
+#bold{
+    color:cadetblue;
+}
+
+/* class */
+.body{
+    color:saddlebrown ;
+}
+
+.heading{
+    color:blue;
+}
+
+
+/* grouping */
+
+h2,h3{
+    color:crimson;
+}
+
+li,b{
+    color :black;
+}
+
+
+/* descendant */
+tr>th{
+    color: darkgreen;
+}
+div>h3{
+    text-align: center;
+}
+tr td{
+    color: deeppink;
+}
+
+/*child*/
+ul>li{
+    color:gold;
+}
+
+/*adjacent*/
+h1+h4{
+    text-align: center;
+}
+
+img+h1{
+    text-align: center;
+}
+
+/* sibling */
+div~h2{
+    text-align: center;
+}
+h2~h3{
+    text-align:right;
+}

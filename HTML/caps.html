@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Caps</title>
+</head>
+<body>
+    <script>
+    // var input="hi i AM vAISHNAVI"
+    // console.log("Given input is:",input)
+    
+    function caps(input){
+    console.log("input is :",input)
+    var inp = input.slice(1,input.length)
+    
+    var str1 = ''
+    var str2 = ""
+    
+    for(var i=0; i<1; i++){
+        if(input[i] == input[i].toLowerCase()){
+            str1 = input[i].toUpperCase()
+        }
+        else{
+            str1 = input[i]
+        }
+        }
+    console.log(str1)    
+    for(let j=0; j<inp.length; j++){
+        if(inp[j] == inp[j].toLowerCase()){
+            str2 += inp[j].toUpperCase()
+            }
+        else if(inp[j] == inp[j].toUpperCase()){
+            str2 += inp[j].toLowerCase()
+            }
+       
+        }
+    
+    console.log(str2)
+    var result = str1+str2
+    console.log("Output is :",result)
+    }
+
+    caps("hEY iAM vASHNAVI")
+    caps("Apple")
+    caps("baNaNa")
+</script>
+</body>
+</html>

@@ -1,0 +1,28 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: cursive;
+    background-color:black;
+
+}
+.tittle{
+    color: white;
+    text-align: center;
+    padding: 10px;
+    margin: 50px;
+    
+}
+.container{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+
+}
+.container  div{
+    flex-basis: 20%;
+    flex-grow: 5;
+    color: aqua;
+    margin: 10px;
+    text-align: center;
+
+}

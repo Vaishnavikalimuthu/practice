@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Document</title>
+    </head>
+    
+    <body>
+        <script>
+            const products={
+                product_1:{
+                    product_name: "Maggi",
+                    product_type: "Food",
+                    product_price: 10
+                },
+                product_2:{
+                    product_name: "Classmate",
+                    product_type: "Books",
+                    product_price: 100
+                },
+                product_3:{
+                    product_name: "Rice",
+                    product_type: "FOod",
+                    product_price: 500
+                },
+                product_4:{
+                    product_name: "Ponds",
+                    product_type: "Makeup",
+                    product_price: 50
+                },
+                product_5:{
+                    product_name: "Bata",
+                    product_type: "Footwears",
+                    product_price: 600
+                },
+                product_6:{
+                    product_name: "Skybags",
+                    product_type: "Bag",
+                    product_price: 1000
+                },
+                product_7:{
+                    product_name: "Sugar",
+                    product_type: "Makeup",
+                    product_price: 1500
+                },
+                product_8:{
+                    product_name: "CoconutOil",
+                    product_type: "Oil",
+                    product_price: 150
+                },
+                product_9:{
+                    product_name: "GRT",
+                    product_type: "Gold",
+                    product_price: 100000
+                },
+                product_10:{
+                    product_name: "Dove",
+                    product_type: "Shampoo",
+                    product_price: 190
+                }
+            }
+
+            
+            console.log(products)
+            products.product_1.product_quantity="100grams"
+            products.product_2.product_quantity="1Notebook"
+            products.product_3.product_quantity="10Kgs"
+            products.product_4.product_quantity="1oograms"
+            products.product_5.product_quantity="pair of 1"
+            products.product_6.product_quantity="1Bag"
+            products.product_7.product_quantity="1"
+            products.product_8.product_quantity="1litre"
+            products.product_9.product_quantity="12Grams"
+            products.product_10.product_quantity="120ml"
+
+            //using Array
+
+
+            const product=[
+                {
+                    product_name: "Maggi",
+                    product_type: "Food",
+                    product_price: 10
+                },
+                {
+                    product_name: "Classmate",
+                    product_type: "Books",
+                    product_price: 100
+                },
+                {
+                    product_name: "Rice",
+                    product_type: "FOod",
+                    product_price: 500
+                },
+                {
+                    product_name: "Ponds",
+                    product_type: "Makeup",
+                    product_price: 50
+                },
+                {
+                    product_name: "Bata",
+                    product_type: "Footwears",
+                    product_price: 600
+                }
+            ]
+
+            for(var i=0;i<product.length; i++){
+                console.log("Product index is ",i,product[i].product_name)
+
+            }
+        </script>    
+    </body>
+</html>

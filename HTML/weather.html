@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>WEATHER</title>
+    <link rel="Stylesheet" href="../CSS/weather.css">
+</head>
+
+<body>
+    <div id="container">
+        <div id="wheader">
+            <div id="search">
+                <h1>Current weather</h1>
+                <input type="text" id="city" placeholder="Enter the city name">
+                <button id="btn_city" type="submit">click here to get a weather</button>
+            </div>
+        </div>
+        <div id="wbody">
+            <img src="../images/Weather-Vocabulary.avif" alt="Weather-Vocabulary" class="weather_img" >
+            <div id="wbox">
+                <p id="temp">0<sup>°C</sup></p>
+                <p id="des">light rain</p>
+            </div>
+
+            <div class="wdetails">
+                <div class="humidity">
+                    <img src="../images/humidity-icon-2048x1675-xxsge5os.png" height="40px">
+                <div class="text">
+                    <p clas="m">55%</p>
+                    <p>Humidity</p>
+                </div>
+
+                <div class="wind">
+                    <img src="../images/istockphoto-1347708317-612x612.jpg" height="40px">
+                <div class="text">
+                    <p class="m">12Km/H</p>
+                    <p>Wind Speed</p>
+                </div>
+            </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="../JS/weather.js"></script>
+</body>
+
+</html>

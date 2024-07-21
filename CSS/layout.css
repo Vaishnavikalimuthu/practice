@@ -1,0 +1,94 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.header ul{
+    background-color: rgb(19, 19, 148);
+    color: white;
+    text-transform: uppercase;
+    list-style-type: none;
+    display: flex;
+    justify-content: space-around;
+    height: 50px;
+    width: 100%;
+    align-items: center;
+    position: fixed;
+    top:0;
+}
+.image{
+    display: flex;
+    justify-content:center;
+    margin-top: 50px;
+    position: relative;
+
+}
+.search {
+    display: flex;
+    justify-content: end;
+}
+.heading h1{
+    border:2px groove black;
+    border-radius: 100px;
+    background-color: black;
+    color: white;
+    padding: 10px;
+}
+.box{
+    height:80vh;
+    width:1200px;
+    background-color: white;
+}
+.head,.body{
+    margin: 10px;
+    padding:5px;
+    display: flex;
+    justify-content: center;
+}
+.flex li{
+    height:400px;
+    width:400px;
+    border:groove 2px black;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-basis: 33%;
+}
+.one:hover li{
+    border-color: blueviolet;
+    box-shadow: 0 0 5px blueviolet;
+}
+
+.two:hover li{
+    border-color: blueviolet;
+    box-shadow: 0 0 5px blueviolet;
+}
+.three:hover li{
+    border-color: blueviolet;
+    box-shadow: 0 0 5px blueviolet;
+}
+.four:hover li{
+    border-color: blueviolet;
+    box-shadow: 0 0 5px blueviolet;
+}
+.five:hover li{
+    border-color: blueviolet;
+    box-shadow: 0 0 5px blueviolet;
+}
+.six:hover li{
+    border-color: blueviolet;
+    box-shadow: 0 0 5px blueviolet;
+}
+.box{
+    display: flex;
+    justify-content: space-around;
+
+}
+.flex{
+    display: grid;
+    /*grid-template-columns: 400px 400px 400px;*/
+    grid-template-columns: 1fr 1fr 1fr;
+    column-gap: 50px;
+    row-gap: 50px;
+    
+}
